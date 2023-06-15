@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  {{>css}}
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>hi</h1>
+  {{{body}}}
+</body>
+<script>
+  $(document).ready(function () {
+    indexEvents();
+  })
+</script>
+{{>scripts}}
+
+</html>
